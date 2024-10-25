@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Sumpah Pemuda</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://desanglanggeran.gunungkidulkab.go.id/assets/files/artikel/sedang_1572067535020368800_1540699986-New_Project__4_.jpg");
+  min-height: 100%;
+}
+
+.content {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">SEJARAH SUMPAH PEMUDA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#content" class="w3-button w3-block w3-black">ISI SUMPAH PEMUDA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#message" class="w3-button w3-block w3-black">PESAN PERSATUAN</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Memperingati Sumpah Pemuda pada 28 Oktober 1928</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">SUMPAH<br>PEMUDA</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Kita kenang perjuangan pendahulu kita</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">SUMPAH PEMUDA</span></h5>
+    <p>Sumpah Pemuda adalah satu tonggak utama dalam sejarah pergerakan kemerdekaan Indonesia. Ikrar ini dianggap sebagai kristalisasi semangat untuk menegaskan cita-cita berdirinya negara Indonesia.</p>
+    <p>Sumpah Pemuda adalah keputusan Kongres Pemuda Kedua yang diselenggarakan dua hari, 27—28 Oktober 1928 di Batavia (kini bernama Jakarta). Keputusan ini menegaskan cita-cita akan "tanah air Indonesia", "bangsa Indonesia", dan "bahasa Indonesia". Keputusan ini diharapkan menjadi asas bagi setiap perkumpulan kebangsaan Indonesia dan agar disiarkan dalam berbagai surat kabar dan dibacakan di muka rapat perkumpulan-perkumpulan.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Bangsa yang besar dan maju adalah bangsa yang bisa mengenang dan mengaplikasikan jasa para pahlawannya dalam kehidupannya.</i></p>
+      <p>Primastuti Dewi</p>
+    </div>
+    <img src="https://asset.kompas.com/crops/owDorSiZbK4G01RplxLwjUzDWjY=/61x0:2502x1627/750x500/data/photo/2021/12/29/61cb429a043fe.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>Kita harus mengenang jasa para pendahulu</p>
+    <p>yang telah berjuang untuk persatuan dan kemerdekaan Indonesia.</p>
+  </div>
+</div>
+
+<!-- Content Container -->
+<div class="w3-container" id="content">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">ISI SUMPAH PEMUDA</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openContent(event, 'Original');" id="myLink">
+        <div class="w3-col s6 tablink">Isi</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openContent(event, 'Meaning');">
+        <div class="w3-col s6 tablink">Makna</div>
+      </a>
+    </div>
+
+    <div id="Original" class="w3-container content w3-padding-48 w3-card">
+      <h5>Pertama:</h5>
+      <p class="w3-text-grey">Kami poetra dan poetri Indonesia, mengakoe bertoempah darah jang satoe, tanah air Indonesia.</p><br>
+    
+      <h5>Kedoea:</h5>
+      <p class="w3-text-grey">Kami poetra dan poetri Indonesia mengakoe berbangsa jang satoe, bangsa Indonesia.</p><br>
+    
+      <h5>Ketiga:</h5>
+      <p class="w3-text-grey">Kami poetra dan poetri Indonesia mendjoendjoeng bahasa persatoean, bahasa Indonesia.</p><br>
+    
+    </div>
+
+    <div id="Meaning" class="w3-container content w3-padding-48 w3-card">
+      <h5>Pertama:</h5>
+      <p class="w3-text-grey">Kami putra dan putri Indonesia, mengaku bertumpah darah yang satu, tanah air Indonesia.</p><br>
+    
+      <h5>Kedua:</h5>
+      <p class="w3-text-grey">Kami putra dan putri Indonesia mengaku berbangsa yang satu, bangsa Indonesia.</p><br>
+    
+      <h5>Ketiga:</h5>
+      <p class="w3-text-grey">Kami putra dan putri Indonesia menjunjung bahasa persatuan, bahasa Indonesia.</p><br>
+    
+    </div>  
+    <img src="https://lamongankab.go.id/beranda/images/article/thumbnail/bakesbang/1666925081.png.png" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="message" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">YUK MENGENANG SUMPAH PEMUDA</span></h5>
+    <p>Buatlah pesan-pesan penyemangat untuk teman-teman lainnya agar  menjaga persatuan dalam kehidupan sehari-hari.</p>
+    <img src="https://cdn1-production-images-kly.akamaized.net/rstqyeIHgF5uPbUoMA7zwlJqN_A=/0x309:3000x2000/500x281/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4435206/original/055243000_1684668680-29013518_7421948.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">FYI!</span> Mengenang pahlawan/pendahulu tidak hanya saat upacara dan mengheningkan cipta saja. Tapi bisa dengan berbagai cara dalam kehidupan sehari-hari, misalnya berbuat baik, menolong sesama, dan menjaga keutuhan negara kita.</p>
+    <p><strong>Tulislah pesan</strong> berisi semangat persatuan seperti para pemuda seluruh negeri di Sumpah Pemuda.</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nama" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Pesan" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">KIRIM PESAN</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Template dari <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Content
+function openContent(evt, contentName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("content");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(contentName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
